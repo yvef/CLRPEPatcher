@@ -1,0 +1,10 @@
+^C:\USERS\IBABANIN\SOURCE\REPOS\CLRPEPATCHER\BUILD\CMAKEFILES\7A4AA1DB614473B366C256A25B90466F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ibabanin/source/repos/CLRPEPatcher -BC:/Users/ibabanin/source/repos/CLRPEPatcher/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ibabanin/source/repos/CLRPEPatcher/build/CLRPEPatcher.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

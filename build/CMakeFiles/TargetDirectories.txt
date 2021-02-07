@@ -1,0 +1,3 @@
+C:/Users/ibabanin/source/repos/CLRPEPatcher/build/CMakeFiles/CLRPEPatcher.dir
+C:/Users/ibabanin/source/repos/CLRPEPatcher/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ibabanin/source/repos/CLRPEPatcher/build/CMakeFiles/ZERO_CHECK.dir
