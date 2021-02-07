@@ -63,7 +63,7 @@ typedef struct _INPUT_PARAMS
 	bool delete_debug_entry_dir;
 	LPCSTR file_name_output;
 	LPCSTR pdb_file_name;
-	LPCSTR pe_file_name;
+	LPCSTR file_name_input;
 	bool is_dll;
 } INPUT_PARAMS;
 

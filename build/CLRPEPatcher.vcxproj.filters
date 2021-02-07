@@ -21,6 +21,9 @@
     <ClInclude Include="C:\Users\ibabanin\source\repos\CLRPEPatcher\src\address_interpreter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\ibabanin\source\repos\CLRPEPatcher\src\arg_reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\ibabanin\source\repos\CLRPEPatcher\src\concepts.h">
       <Filter>Header Files</Filter>
     </ClInclude>

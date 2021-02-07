@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include "concepts.h"
 #include "procedure_validator.h"
+#include <string.h>
 
 
 bool procedure_validator::check(bool is_successful)
