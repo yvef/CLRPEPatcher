@@ -1,5 +1,7 @@
 $GIT_DIR/build
-build
+build/
+build/Debug
+build/x64/Debug
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
