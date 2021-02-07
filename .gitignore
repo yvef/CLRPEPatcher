@@ -1,5 +1,4 @@
 $GIT_DIR/build
-build/
 build/Debug/
 build/x64/Debug/
 CMakeLists.txt.user
