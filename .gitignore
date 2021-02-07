@@ -1,4 +1,5 @@
-$GIT_DIR/build
+build/.cmake/api/v1
+build/CLRPEPatcher.dir/Debug
 build/Debug/
 build/x64/Debug/
 CMakeLists.txt.user
