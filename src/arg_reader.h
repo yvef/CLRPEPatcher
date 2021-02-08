@@ -35,6 +35,14 @@ public:
                 }
                 input_params->create_new_debug_entry = true;
             }
+            else if(strcmp(cmd, "-add-exists") == 0)
+            {
+                if(input_params->delete_debug_entry_dir)
+                    return false;
+
+                input_params->use_existing_pdb = true;
+                input_params->create_new_debug_entry = true;
+            }
             else if(strcmp(cmd, "-del") == 0)
             {
                 if(input_params->create_new_debug_entry)
@@ -43,13 +51,7 @@ public:
                 }
                 input_params->delete_debug_entry_dir = true;
             }
-            else if(strcmp(cmd, "-add-exists") == 0)
-            {
-                if(input_params->delete_debug_entry_dir)
-                    return false;
-
-                input_params->use_existing_pdb = true;
-            }
+            
         }
 
 
