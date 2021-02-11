@@ -11,6 +11,11 @@ The patcher for CLR compatible PE/COFF files, that can do the next things:
 - -add-exists: add pdb info and grab authenticity from the provided pdb file.
 - -del: delete pdb info.
 
+Example:
+```bash
+$ CLRPEPatcher "file_path_input" -o "file_path_output" -add
+```
+
 ##### Limitations:
 - The tool works correctly if file alignment is 512, 1024 (and in rare cases 2048) bytes.
 - "Add-exists" command can be used if the .pdb file has Microsoft legacy format. ("Full" option for msbuild).
