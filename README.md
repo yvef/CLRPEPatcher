@@ -13,7 +13,7 @@ The patcher for CLR compatible PE/COFF files, that can do the next things:
 
 Example:
 ```bash
-$ CLRPEPatcher "file_path_input" -o "file_path_output" -add
+$ CLRPEPatcher "full_file_name_input" -o "full_file_name_output" -add
 ```
 
 ##### Limitations:
