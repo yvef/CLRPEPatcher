@@ -57,8 +57,10 @@ public:
 
         if(input_params->pdb_file_name == LPCSTR('\0'))
         {
-            auto pdb_name = LPSTR(input_params->file_name_input);
             size_t file_name_size = strlen(input_params->file_name_input);
+
+            LPSTR pdb_name = (LPSTR)malloc(file_name_size);
+            strcpy(pdb_name, input_params->file_name_input);
 
             pdb_name[file_name_size - 1] = 'b';
             pdb_name[file_name_size - 2] = 'd';
